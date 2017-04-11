@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Text to Speech for Helpx</title>
+</head>
+<style>
+    .tbox
+    {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
+    }
+    .button
+    {
+        height: 50px;
+        width: 100px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: white;
+        color: black;
+        border: 2px solid #4CAF50; /* Green */
+    }
+    .text
+    {
+    font-variant: small-caps;
+    }
+</style>
+
+<body>
+<p class="text">TEXT to SPEECH for HELPX</p>
+<form action="." method="post">
+<input type="url" placeholder="Enter URL of Helpx page" name="url" class="tbox">
+<input type="submit" name="Start" class="button" id="b1">
+</form>
+<p>{{line}}</p>
+</body>
+</html>
